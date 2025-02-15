@@ -4,6 +4,7 @@ class Hello
 {
     static void Main()
     {
-        Console.WriteLine("Hello World!");
+        var Name = Console.ReadLine();
+        Console.WriteLine($"Hello {Name}!");
     }
 }
